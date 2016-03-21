@@ -32,3 +32,6 @@ alias rho='ssh i2millig@rho.library.yorku.ca'
 alias openlab='ssh -D 8080 i2millig@openlab.umiacs.umd.edu'
 alias camalon='ssh -D 8080 -A -t i2millig@openlab.umiacs.umd.edu ssh -A -t i2millig@camalon.umiacs.umd.edu'
 alias walk='ssh -i /Users/ianmilligan1/dropbox/git/WALK-Private/walk.pem ubuntu@206.12.59.247'
+
+# the following on the RHO server
+# alias spark='/home/i2millig/spark-1.5.1/bin/spark-shell --driver-memory 40G --jars ~/warcbase/target/warcbase-0.1.0-SNAPSHOT-fatjar.jar'
