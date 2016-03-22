@@ -35,3 +35,6 @@ alias walk='ssh -i /Users/ianmilligan1/dropbox/git/WALK-Private/walk.pem ubuntu@
 
 # the following on the RHO server
 # alias spark='/home/i2millig/spark-1.5.1/bin/spark-shell --driver-memory 40G --jars ~/warcbase/target/warcbase-0.1.0-SNAPSHOT-fatjar.jar'
+#
+# and for the super lazy when doing tons of builds/tests/etc.:
+# alias buildwarcbase='mvn clean package appassembler:assemble -DskipTests'
