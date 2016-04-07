@@ -30,3 +30,5 @@ alias walk='ssh -i /Users/ianmilligan1/dropbox/git/WALK-Private/walk.pem ubuntu@
 # the following on the RHO server
 # alias spark='/home/i2millig/spark-1.5.1/bin/spark-shell --driver-memory 40G --jars ~/warcbase/target/warcbase-0.1.0-SNAPSHOT-fatjar.jar'
 
+# the following on TRANTOR cluster
+# alias spark='spark-shell --jars ~/warcbase/target/warcbase-0.1.0-SNAPSHOT-fatjar.jar --num-executors 75 --executor-cores 5 --executor-memory 20G --driver-memory 26G'
