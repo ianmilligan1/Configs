@@ -30,3 +30,12 @@
 	added = yellow
 	changed = green
 	untracked = cyan
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+	tree = log --graph --pretty=oneline --decorate
+	lg = log -p
+	df = diff
+	history = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
