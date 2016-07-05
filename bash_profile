@@ -31,5 +31,13 @@ alias openlab='ssh -D 8080 i2millig@openlab.umiacs.umd.edu'
 alias camalon='ssh -D 8080 -A -t i2millig@openlab.umiacs.umd.edu ssh -A -t i2millig@camalon.umiacs.umd.edu'
 alias walk='ssh -i /Users/ianmilligan1/dropbox/git/WALK-Private/walk.pem ubuntu@206.12.59.247'
 
+
 # added by Anaconda2 4.0.0 installer
 export PATH="/Users/ianmilligan1/anaconda2/bin:$PATH"
+
+# supporting the super-sophisticated command line tool 'thefuck'
+eval "$(thefuck --alias)"
+
+
+# added by Anaconda3 4.0.0 installer
+export PATH="/Users/ianmilligan1/anaconda/bin:$PATH"
